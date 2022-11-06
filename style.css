@@ -1,0 +1,14 @@
+.wrap {
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+.input-group {
+    margin: 20px 0;
+}
+
+.mb-3,
+.btn {
+    margin: 20px;
+}
