@@ -6,6 +6,22 @@ html, body {
 body {
     display: flex;
     flex-direction: column;
+    background-color: #072784;
+}
+
+body::-webkit-scrollbar {
+    height: 10px;
+    width: 15px;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: transparent;
+    border-radius: .4rem;
+    border: .1875rem solid #fbcc3e;
+}
+
+body::-webkit-scrollbar-thumb:hover {
+    background-color: #fbcc3e;
 }
 
 * {
@@ -14,37 +30,81 @@ body {
     box-sizing: border-box;
 }
 
+section {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+.title {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #1a1a34;
+    text-align: center;
+    padding: 30px;
+}
+
+h1 {
+    font-size: 70px;
+    letter-spacing: 15px;
+    padding-bottom: 20px;
+}
+
+h2 {
+    font-size: 60px;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+}
+
+@media (max-width: 768px) {
+    .title {
+        padding: 10px;
+    }
+    h1 {
+        font-size: 40px;
+        letter-spacing: 10px;
+        padding-bottom: 10px;
+    }
+    h2 {
+        font-size: 30px;
+        letter-spacing: 10px;
+    }
+}
+
 .wrapper {
     padding: 0 20px;
     flex-grow: 1;
+    margin-bottom: 20px;
 }
 
 .swiper {
     display: flex;
-    max-width: 800px;
-    width: 100%;
-    height: auto;
-    margin: 0 auto;
-    border: 5px solid red;
+    width: auto;
+    height: 100vh;
 }
 
 .swiper-slide {
     display: flex;
+    max-width: 100%;
+    width: auto;
+    max-height: 800px;
+    height: auto;
+    margin: 50px auto;
 }
 
 .swiper-slide img {
-    width: 100%;
-    height: 100%;
+    width: auto;
+    height: auto;
+    margin: 0 auto;
 }
 
 .swiper-button-prev {
     background-color: transparent;
-    left: 20px;
+    left: 1.25rem;
 }
 
 .swiper-button-next {
     background-color: transparent;
-    right: 20px;
+    right: 1.25rem;
 }
 
 .swiper-button-prev::after, .swiper-button-next::after {
@@ -54,13 +114,47 @@ body {
 
 .swiper-pagination-bullet {
     background-color: transparent;
-    width: 20px;
-    height: 20px;
-    opacity: 1;
+    width: 1.25rem;
+    height: 1.25rem;
     border-radius: 20%;
-    border: 2px solid #fbcc3e;
+    border: .1875rem solid #fbcc3e;
 }
 
 .swiper-pagination-bullet-active {
     background-color: #d2ae45;
+}
+
+.inner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+}
+
+.gallery {
+    display: flex;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    margin: auto 50px;
+}
+
+.gallery .swiper-wrapper {
+    box-sizing: content-box;
+}
+
+.foto-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: auto;
+}
+
+.foto-slide img {
+    max-width: 100%;
+    width: auto;
+    height: auto;
+    max-height: 800px;
 }
