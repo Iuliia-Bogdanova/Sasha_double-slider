@@ -17,7 +17,7 @@ body::-webkit-scrollbar {
 body::-webkit-scrollbar-thumb {
     background-color: transparent;
     border-radius: .4rem;
-    border: .1875rem solid #fbcc3e;
+    border: .1875rem solid #d2ae45;
 }
 
 body::-webkit-scrollbar-thumb:hover {
@@ -39,6 +39,7 @@ section {
 .title {
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: #1a1a34;
+    text-shadow: -3px 3px 5px #d2ae45;
     text-align: center;
     padding: 30px;
 }
