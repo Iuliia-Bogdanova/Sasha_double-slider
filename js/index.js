@@ -1,21 +1,21 @@
 "use strict"
 
 const gallery = new Swiper(".gallery", {
-    direction: "horizontal",
-    initialSlide: 0,
-    loop: true,
-    speed: 3000,
-    effect: "flip",
-    sentredSlides: true,
-    dynamicBullets: true,
-    pagination: {
-        el: ".swiper-pagination",
-        clickable: true,
-    },
+  direction: "horizontal",
+  initialSlide: 0,
+  loop: true,
+  speed: 3000,
+  effect: "cube",
+  sentredSlides: true,
+  dynamicBullets: true,
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+  },
 
-    autoplay: {
-        delay: 3000,
-    },
+  autoplay: {
+    delay: 3000,
+  },
 });
 
 const swiper = new Swiper(".swiper", {

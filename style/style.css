@@ -21,7 +21,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 body::-webkit-scrollbar-thumb:hover {
-    background-color: #fbcc3e;
+    background-color: #d2ae45;
 }
 
 * {
@@ -96,6 +96,7 @@ h2 {
     width: auto;
     height: auto;
     margin: 0 auto;
+    box-shadow: 5px -5px 10px #1a1a34;
 }
 
 .swiper-button-prev {
@@ -158,4 +159,5 @@ h2 {
     width: auto;
     height: auto;
     max-height: 800px;
+    box-shadow: 5px -5px 10px #1a1a34;
 }
