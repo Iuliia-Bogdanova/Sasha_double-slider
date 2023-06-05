@@ -6,7 +6,6 @@ const gallery = new Swiper(".gallery", {
   loop: true,
   speed: 3000,
   effect: "cube",
-  // sentredSlides: true,
   dynamicBullets: true,
   pagination: {
     el: ".swiper-pagination",
@@ -25,7 +24,6 @@ const swiper = new Swiper(".swiper", {
   speed: 3000,
   effect: "coverflow",
   slidesPerView: 3,
-  // spaceBetween: 20,
   sentredSlides: true,
   dynamicBullets: true,
 
@@ -34,30 +32,13 @@ const swiper = new Swiper(".swiper", {
     clickable: true,
   },
 
-  navigation: {
-    nextEl: ".swiper-button-next",
-    prevEl: ".swiper-button-prev",
-  },
+  // navigation: {
+  //   nextEl: ".swiper-button-next",
+  //   prevEl: ".swiper-button-prev",
+  // },
 
   autoplay: {
     delay: 3000,
   },
 
-  // breakpoints: {
-  //     // when window width is >= 320px
-  //     320: {
-  //     slidesPerView: 1,
-
-  //     },
-  //     // when window width is >= 480px
-  //     480: {
-  //     slidesPerView: 2,
-
-  //     },
-  //     // when window width is >= 640px
-  //     640: {
-  //     slidesPerView: 3,
-
-  //     },
-  // },
 });

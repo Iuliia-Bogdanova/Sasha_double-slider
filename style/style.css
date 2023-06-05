@@ -55,8 +55,6 @@ h2 {
     text-transform: uppercase;
 }
 
-
-
 .swiper-pagination-bullet {
     background-color: transparent;
     width: 26px;
@@ -69,24 +67,20 @@ h2 {
     background-color: #d2ae45;
 }
 
-
-
 .wrapper {
-    padding: 0 20px;
+    display: flex;
     flex-grow: 1;
-    /* margin-top: 30px; */
-
-    border: 1px solid red;
+    margin: 0 auto;
+    
+    /* border: 1px solid red; */
 }
 
 .swiper {
     display: flex;
     width: auto;
     height: auto;
-    padding: 30px auto;
 
-   
-    border: 1px solid green;
+    /* border: 1px solid green; */
 }
 
 .swiper-slide {
@@ -95,10 +89,10 @@ h2 {
     width: auto;
     max-height: 800px;
     height: auto;
-    margin: 60px auto;
-    padding: 30px auto;
+    margin: 30px auto 50px;
+    padding: 0 auto;
 
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
 }
 
 .swiper-slide img {
@@ -109,12 +103,7 @@ h2 {
     margin: 0 auto;
     box-shadow: 5px -5px 10px #1a1a34;
 
-    
-    border: 1px solid white;
-}
-
-@media (max-width: 768px) {
-    
+    /* border: 1px solid white; */
 }
 
 .swiper-button-prev {
@@ -132,21 +121,17 @@ h2 {
     font-weight: bolder;
 }
 
-
-
 .inner {
- padding: 0 20px;
-    
-    /* margin: 30px auto; */
-
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
     height: auto;
     flex-grow: 1;
-
-       border: 1px solid red;
+    padding: 0 20px;
+    margin-bottom: 20px;
+    
+    /* border: 1px solid red; */
 }
 
 .gallery {
@@ -154,14 +139,9 @@ h2 {
     width: 100%;
     height: auto;
     overflow: hidden;
-    
     padding-bottom: 50px;
-
-    display: flex;
-    /* width: auto;
-    height: 100vh; */
-    /* padding: 30px; */
-        border: 1px solid green;
+        
+    /* border: 1px solid green; */
 }
 
 .gallery .swiper-wrapper {
@@ -172,11 +152,6 @@ h2 {
     display: flex;
     justify-content: center;
     align-items: center;
-    /* width: auto;
-    height: auto; */
-    margin: 50px auto;
-    padding: 30px auto;
-
     max-width: 100%;
     width: auto;
     max-height: 800px; 
@@ -206,10 +181,13 @@ h2 {
         letter-spacing: 10px;
     }
     .swiper-pagination-bullet {
-        width: 20px;
-        height: 20px;
+        width: 18px;
+        height: 18px;
     }
     .swiper-slide img {
-        max-height: 600px;
+        max-height: 400px;
+    }
+    .gallery {
+        padding-bottom: 30px;
     }
 }
