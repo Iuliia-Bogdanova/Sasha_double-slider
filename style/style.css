@@ -184,7 +184,8 @@ h2 {
         width: 18px;
         height: 18px;
     }
-    .swiper-slide img {
+    .swiper-slide img,
+    .foto-slide img {
         max-height: 400px;
     }
     .gallery {
