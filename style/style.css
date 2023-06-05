@@ -41,19 +41,25 @@ section {
     color: #1a1a34;
     text-shadow: -3px 3px 5px #d2ae45;
     text-align: center;
-    padding: 30px;
+    padding: 20px;
+
+    border: 1px solid red;
 }
 
 h1 {
     font-size: 70px;
     letter-spacing: 15px;
     padding-bottom: 20px;
+
+    border: 1px solid red;
 }
 
 h2 {
     font-size: 60px;
     letter-spacing: 10px;
     text-transform: uppercase;
+
+    border: 1px solid red;
 }
 
 @media (max-width: 768px) {
@@ -74,13 +80,17 @@ h2 {
 .wrapper {
     padding: 0 20px;
     flex-grow: 1;
-    margin-bottom: 20px;
+    margin: 30px auto;
+
+    border: 1px solid red;
 }
 
 .swiper {
     display: flex;
     width: auto;
     height: 100vh;
+    
+    border: 1px solid green;
 }
 
 .swiper-slide {
@@ -90,6 +100,8 @@ h2 {
     max-height: 800px;
     height: auto;
     margin: 50px auto;
+
+    border: 1px solid blue;
 }
 
 .swiper-slide img {
@@ -97,6 +109,8 @@ h2 {
     height: auto;
     margin: 0 auto;
     box-shadow: 5px -5px 10px #1a1a34;
+
+    border: 1px solid white;
 }
 
 .swiper-button-prev {
@@ -132,6 +146,9 @@ h2 {
     align-items: center;
     width: 100%;
     height: auto;
+    margin: 30px auto;
+    
+    border: 1px solid red;
 }
 
 .gallery {
@@ -139,7 +156,9 @@ h2 {
     width: 100%;
     height: auto;
     overflow: hidden;
-    margin: auto 50px;
+    margin: 50px auto;
+    
+    border: 1px solid green;
 }
 
 .gallery .swiper-wrapper {
@@ -152,6 +171,9 @@ h2 {
     align-items: center;
     width: auto;
     height: auto;
+    
+    border: 1px solid blue;
+
 }
 
 .foto-slide img {
@@ -160,4 +182,6 @@ h2 {
     height: auto;
     max-height: 800px;
     box-shadow: 5px -5px 10px #1a1a34;
+    
+    border: 1px solid white;
 }
