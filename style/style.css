@@ -183,14 +183,13 @@ h2 {
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 425px) {
     h1 {
         font-size: 40px;
         letter-spacing: normal;
-        
     }
     h2 {
-        font-size: 30px;
+        font-size: 26px;
         letter-spacing: normal;
     }
 }
