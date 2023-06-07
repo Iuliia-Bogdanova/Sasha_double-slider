@@ -174,8 +174,7 @@ h2 {
         width: 18px;
         height: 18px;
     }
-    .swiper-slide img,
-    .foto-slide img {
+    .swiper-slide img {
         max-height: 400px;
     }
     .gallery {
@@ -191,5 +190,8 @@ h2 {
     h2 {
         font-size: 26px;
         letter-spacing: normal;
+    }
+    .swiper-slide img {
+        max-height: 300px;
     }
 }
